@@ -73,7 +73,17 @@ Esto es causado por **corrupción en la configuración de Docker Desktop**.
 
 ## Solución aplicada
 
-### Limpieza completa de configuración
+### Script automatizado
+
+Para aplicar la solución de forma automatizada, usa el script incluido en este directorio:
+
+```powershell
+.\Fix-DockerKubernetes.ps1
+```
+
+El script realiza todos los pasos de limpieza y reinicio automáticamente.
+
+### Limpieza completa de configuración (manual)
 
 ```powershell
 # 1. Detener Docker Desktop
